@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>pigGame</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="main__wrapper">
+        <div class="main__box">
+          <div class="main__player active" id="player1">
+            <h2 class="main__player-name">Player 1</h2>
+            <h3 class="main__player-total" id="player1__total">0</h3>
+            <div class="main__score-block">
+              <p class="main__score-current">Current</p>
+              <p class="main__score-number" id="player1__current">0</p>
+            </div>
+          </div>
+          <div class="main__player" id="player2">
+            <h2 class="main__player-name">Player 2</h2>
+            <h3 class="main__player-total" id="player2__total">0</h3>
+            <div class="main__score-block">
+              <p class="main__score-current">Current</p>
+              <p class="main__score-number" id="player2__current">0</p>
+            </div>
+          </div>
+          <button class="main__new">New game 🎱</button>
+          <button class="main__roll">roll dice 🎲</button>
+          <button class="main__hold">hold</button>
+          <div class="main__dice">
+            <img class="main__dice-image" src="img/one.svg" alt="dice" />
+          </div>
+          <div class="main__dice">
+            <img class="main__dice-image" src="img/two.svg" alt="dice" />
+          </div>
+          <div class="main__dice">
+            <img class="main__dice-image" src="img/three.svg" alt="dice" />
+          </div>
+          <div class="main__dice">
+            <img class="main__dice-image" src="img/four.svg" alt="dice" />
+          </div>
+          <div class="main__dice">
+            <img class="main__dice-image" src="img/five.svg" alt="dice" />
+          </div>
+          <div class="main__dice">
+            <img class="main__dice-image" src="img/six.svg" alt="dice" />
+          </div>
+        </div>
+        <div class="main__congrats">
+          <p class="main__congrats-text"></p>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <!-- <script src="js/script.js"></script> -->
+  <script src="js/scriptSecond.js"></script>
+</html>
